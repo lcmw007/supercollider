@@ -1,0 +1,9 @@
+(
+z = {
+	var freq, sig;
+	freq = LFNoise0.kr(8).range(200,1000);
+	sig = SinOsc.ar(freq);
+}.play;
+)
+
+z.free;
